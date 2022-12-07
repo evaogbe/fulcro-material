@@ -1,0 +1,16 @@
+{:paths ["src"]
+ :deps {com.fulcrologic/fulcro {:mvn/version "3.5.30"}
+        org.clojure/clojure  {:mvn/version "1.11.1"}}
+ :aliases {:dev {:extra-paths ["dev" "resources" "cards"]
+                 :extra-deps {binaryage/devtools {:mvn/version "1.0.6"}
+                              cider/cider-nrepl {:mvn/version "0.29.0"}
+                              com.taoensso/timbre {:mvn/version "6.0.3"}
+                              funcool/cuerdas {:mvn/version "2022.06.16-403"}
+                              nubank/workspaces {:exclusions [cljsjs/highlight.cljs]
+                                                 :mvn/version "1.1.2"}
+                              org.clojure/clojurescript {:mvn/version "1.11.60"}
+                              thheller/shadow-cljs {:mvn/version "2.20.13"}
+                              tick/tick {:mvn/version "0.5.0"}}}
+           :build {:deps {io.github.clojure/tools.build {:mvn/version "0.9.4"}
+                          slipset/deps-deploy {:mvn/version "RELEASE"}}
+                   :ns-default build}}}
