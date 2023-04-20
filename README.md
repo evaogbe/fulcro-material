@@ -1,6 +1,6 @@
 # Fulcro Material UI wrapper
 
-![Clojars version](https://img.shields.io/clojars/v/net.clojars.eoogbe/fulcro-material?include_prereleases)
+[![Clojars Project](https://img.shields.io/clojars/v/net.clojars.eoogbe/fulcro-material.svg?include_prereleases)](https://clojars.org/net.clojars.eoogbe/fulcro-material)
 
 [Fulcro](https://fulcro.fulcrologic.com/) convenience wrapper around
 [Material UI](https://mui.com/).
