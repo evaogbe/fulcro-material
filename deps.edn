@@ -1,5 +1,5 @@
 {:paths ["src"]
- :deps {com.fulcrologic/fulcro {:mvn/version "3.5.30"}
+ :deps {com.fulcrologic/fulcro {:mvn/version "3.6.3"}
         org.clojure/clojure  {:mvn/version "1.11.1"}}
  :aliases {:dev {:extra-paths ["dev" "resources" "cards"]
                  :extra-deps {binaryage/devtools {:mvn/version "1.0.6"}
