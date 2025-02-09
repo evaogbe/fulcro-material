@@ -8,7 +8,7 @@
 ## Version Compatibility
 
 - Fulcro 3
-- Material UI 5
+- Material UI 6
 
 ## Usage
 

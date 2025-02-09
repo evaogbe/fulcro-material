@@ -1,5 +1,4 @@
 {:builds {:cards {:asset-path "/js/workspaces"
-                  :build-options {:ns-aliases {highlight highlight.js}}
                   :compiler-options {:global-goog-object&array true
                                      :output-feature-set :es7}
                   :devtools {:preloads [com.fulcrologic.fulcro.inspect.preload
@@ -9,7 +8,7 @@
                                           :global "goog.log.Logger.Level"}
                                          "highlight.js"
                                          {:target :npm
-                                          :require "highlight.js/lib/core.js"}}}
+                                          :require "highlight.js/lib/core"}}}
                   :modules {:main {:entries [ogbe.fulcro.mui.workspaces.main]}}
                   :output-dir "resources/public/js/workspaces"
                   :target :browser}}

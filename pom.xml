@@ -4,38 +4,22 @@
   <packaging>jar</packaging>
   <groupId>net.clojars.eoogbe</groupId>
   <artifactId>fulcro-material</artifactId>
-  <version>0.1.0-alpha0</version>
+  <version>0.1.0-alpha1</version>
   <name>fulcro-material</name>
   <dependencies>
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>clojure</artifactId>
-      <version>1.11.1</version>
+      <version>1.12.0</version>
     </dependency>
     <dependency>
       <groupId>com.fulcrologic</groupId>
       <artifactId>fulcro</artifactId>
-      <version>3.6.3</version>
+      <version>3.8.2</version>
     </dependency>
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-gpg-plugin</artifactId>
-        <version>3.0.1</version>
-        <executions>
-          <execution>
-            <id>sign-artifacts</id>
-            <phase>verify</phase>
-            <goals>
-              <goal>sign</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
   </build>
   <repositories>
     <repository>
@@ -44,9 +28,15 @@
     </repository>
   </repositories>
   <scm>
-    <connection>scm:git:git://github.com/eoogbe/fulcro-material.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:eoogbe/fulcro-material.git</developerConnection>
-    <tag>v0.1.0-alpha0</tag>
-    <url>https://github.com/eoogbe/fulcro-material</url>
+    <connection>scm:git:git://github.com/evaogbe/fulcro-material.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:evaogbe/fulcro-material.git</developerConnection>
+    <tag>v0.1.0-alpha1</tag>
+    <url>https://github.com/evaogbe/fulcro-material</url>
   </scm>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
 </project>

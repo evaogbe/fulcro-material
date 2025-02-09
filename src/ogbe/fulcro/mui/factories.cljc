@@ -1,13 +1,13 @@
 (ns ogbe.fulcro.mui.factories
   #?(:cljs (:require
-            ["@mui/base" :refer [ClickAwayListener
-                                 NoSsr
-                                 Portal
-                                 TabPanelUnstyled
-                                 TabUnstyled
-                                 TabsListUnstyled
-                                 TabsUnstyled
-                                 TextareaAutosize]]
+            ["@mui/material" :refer [ClickAwayListener
+                                     NoSsr
+                                     Portal
+                                     TabPanelUnstyled
+                                     TabUnstyled
+                                     TabsListUnstyled
+                                     TabsUnstyled
+                                     TextareaAutosize]]
             ["@mui/material" :refer [Accordion
                                      AccordionActions
                                      AccordionDetails
